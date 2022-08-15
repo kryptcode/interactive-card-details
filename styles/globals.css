@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+@layer components {
+    .bg-main {
+        @apply bg-[url('../images/bg-main-desktop.png')] h-[16rem] md:h-auto;
+    }
+    .card-back {
+        @apply bg-[url('../images/bg-card-back.png')];
+    }
+    .card-front {
+        @apply bg-[url('../images/bg-card-front.png')];
+    }
+}
