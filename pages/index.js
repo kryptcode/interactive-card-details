@@ -13,9 +13,11 @@ export default function Home() {
   function handleSubmit(e) {
     e.preventDefault()
 
-    if(!acctName || !acctNo || !year || !!cvv ||!month ) {
+    if(!acctName || !acctNo || !year || !cvv ||!month ) {
       setErrorMsg('Please Input all data before submitting!')
       alert(errorMsg)
+    } else {
+      alert('Thank you!')
     }
   }
 
