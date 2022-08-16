@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { useState } from 'react'
-import { CardIcon } from '../components/cardIcon'
+import CardIcon from '../components/CardIcon'
 
 export default function Home() {
   const [acctName, setAcctName] = useState('')
