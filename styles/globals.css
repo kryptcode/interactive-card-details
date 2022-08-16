@@ -11,12 +11,12 @@
 
 @layer components {
     .bg-main {
-        @apply bg-[url('../images/bg-main-desktop.png')] h-[16rem] md:h-auto;
+        @apply bg-[url('https://i.ibb.co/hFmTv6d/bg-main-desktop.png')] h-[16rem] md:h-auto;
     }
     .card-back {
-        @apply bg-[url('../images/bg-card-back.png')];
+        @apply bg-[url('https://i.ibb.co/xhkwz9m/bg-card-back.png')];
     }
     .card-front {
-        @apply bg-[url('../images/bg-card-front.png')];
+        @apply bg-[url('https://i.ibb.co/5WVhXnN/bg-card-front.png')];
     }
 }
